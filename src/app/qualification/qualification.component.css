@@ -1,0 +1,30 @@
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.t1-title{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #021021;
+    text-transform: uppercase;
+}
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: #3886ed;
+    text-transform: uppercase;
+}
+.t1-content{
+    border-left: 1px solid #ccc;
+    padding-left: 2rem;
+    position: relative;
+}
+.tl-title-2:before{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: #2D9CDB;
+    border-radius: 50%;
+    left: -1.5%;
+}

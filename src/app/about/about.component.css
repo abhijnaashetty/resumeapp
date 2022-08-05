@@ -1,0 +1,9 @@
+.blue{
+    background-color: rgb(32,125,248);
+    color:#ffffff;
+ }
+ .blue:hover{
+    background-color: rgb(255,255,255);
+    color: #0f6eeb;
+    border-radius: 2px solid rgb(20,109,241);
+ }
